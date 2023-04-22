@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+  }
+  header{
+    background-color: #F2F2F2;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  header a{
+    height: 100%;
+    flex: 20%;
+    text-align: center;
+    justify-content: center;
+    background-color: #e4e4e4;
+  }
+  
+  header a img{
+    width: 60px;
+    height: 60px;
+  
+  }
+  nav{
+    display: flex;
+    flex: 80%;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav p{
+    flex: 50%;
+  }
+  
+  ul{
+    width: 50%;
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    height: auto;
+  
+  }
+  ul,li{
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li{
+  flex: 20%;
+  
+  }
+  
+  ul li a{
+    display: block;
+    padding: 2px;
+    border: solid 2px #c2c1c0;
+    text-decoration: none;
+    background-color:#aba094;
+    color: #ffffff;
+    text-align: center;
+  
+  
+  
+  }
+  ul li:hover a{
+    border: solid 2px #ffffff;
+    background-color: #e4e4e4;
+    color: #505050;
+  }
+  
+  main{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #202020;
+  }
+  .block1{
+    background-color: #e4e4e4;
+    display: flex;
+    width: 60%;
+  }
+
+
+  .block{
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  main .block .verh{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;   
+
+  } 
+  .block .verh h2{
+    margin: 20px;
+    font-size: 40px;   
+    color: #01000c;
+    text-align: center;
+  }
+  
+  main .block .niz{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #e4e4e4;
+  } 
+  
+  main .block .criterii{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+    
+
+  } 
+.criterii .element{
+ margin: 2px;
+ padding: 5px;
+ width: 33%;
+
+}
+.element img{
+  width: 350px;
+  height: 300px;
+  box-shadow: #d9d9d9
+ 
+  }
+  .block .niz h3{
+    font-size: 24px;   
+    color: #01000c;
+    text-align: center; 
+  }
+   .element h3{ 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .block .niz .val{
+    font-size: 20px;   
+    color: #fa3706;
+    text-align: center;
+  }
+  .element p{
+    margin: 30px;
+  }
+  .block button{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #bebebe;
+    background-color: #e4e4e4;
+    ;
+  }
+  button:hover{
+   border-bottom-color: #707070;
+  }
+  .block .niz .p3{
+    margin: 20px;
+    color: #202020;
+    text-align: center;    
+  }
+  .red-text{
+    color: #fa3706;
+    font-weight: bolder;
+  }
